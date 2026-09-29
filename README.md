@@ -1,39 +1,48 @@
-# Awesome Bookkeeping & Accounting Software
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Bookkeeping Banner" width="100%" />
+</p>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-List-brightgreen.svg" alt="Awesome List"/></a>
+  <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-> A curated list of top **SaaS accounting platforms** and **open-source bookkeeping software** for small business owners, freelancers, accountants, and software developers.
+> 📚 A curated list of top **SaaS accounting platforms** and **open-source bookkeeping software** for small business owners, freelancers, accountants, and software developers.
 
-*Focused on double-entry accounting, self-hosted general ledgers, invoicing, bank reconciliation, and financial management.*
-
----
-
-## Table of Contents
-
-- [Market Size & Industry Landscape](#market-size--industry-landscape)
-- [SaaS & Cloud Accounting Platforms](#saas--cloud-accounting-platforms)
-- [Open-Source Bookkeeping Projects](#open-source-bookkeeping-projects)
-- [Feature Comparison & Buyer's Guide](#feature-comparison--buyers-guide)
-- [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+*Focused on double-entry accounting 📑, self-hosted general ledgers 💻, invoicing 💳, bank reconciliation 🏦, and financial management 📊.*
 
 ---
 
-## Market Size & Industry Landscape
+## 📌 Table of Contents
 
-**Estimated Market Size:** The global accounting and bookkeeping software market is estimated at **$15.5 Billion to $20.0 Billion** in 2026, with projections exceeding $30 Billion by 2030 at a compound annual growth rate (CAGR) of ~8.8%. 
-
-**Market Dynamics:** The sector is **moderately fragmented**. While dominant leaders like Intuit (QuickBooks) and Xero command significant market share in North America, Europe, and ANZ, diverse regional tax regulations (e.g., VAT, GST, MTD) and varied business requirements allow dozens of specialized SaaS platforms and self-hosted open-source tools to thrive alongside market leaders.
+- [📊 Market Size & Industry Landscape](#-market-size--industry-landscape)
+- [☁️ SaaS & Cloud Accounting Platforms](#%EF%B8%8F-saas--cloud-accounting-platforms)
+- [🚀 Open-Source Bookkeeping Projects](#-open-source-bookkeeping-projects)
+- [🎯 Feature Comparison & Buyer's Guide](#-feature-comparison--buyers-guide)
+- [❓ Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
 ---
 
-## SaaS & Cloud Accounting Platforms
+## 📊 Market Size & Industry Landscape
 
-The table below lists leading commercial SaaS bookkeeping and accounting solutions, sorted by **Company Valuation / Scale (Descending)**.
+💼 **Estimated Market Size:** The global accounting and bookkeeping software market is estimated at **$15.5 Billion to $20.0 Billion** in 2026, with projections exceeding $30 Billion by 2030 at a compound annual growth rate (CAGR) of ~8.8%. 
 
-| SaaS Platform | Company Valuation / Revenue Scale | Starting Price | Free Tier / Trial Limit | Key Focus & Target Audience |
+🌐 **Market Dynamics:** The sector is **moderately fragmented**. While dominant leaders like Intuit (QuickBooks) and Xero command significant market share in North America, Europe, and ANZ, diverse regional tax regulations (e.g., VAT, GST, MTD) and varied business requirements allow dozens of specialized SaaS platforms and self-hosted open-source tools to thrive alongside market leaders.
+
+---
+
+## ☁️ SaaS & Cloud Accounting Platforms
+
+The table below lists leading commercial SaaS bookkeeping and accounting solutions, sorted by **Company Valuation / Scale (Descending)** 📉.
+
+| 🏢 SaaS Platform | 💰 Company Valuation / Revenue Scale | 🏷️ Starting Price | 🎁 Free Tier / Trial Limit | 🎯 Key Focus & Target Audience |
 | :--- | :--- | :--- | :--- | :--- |
 | **[QuickBooks Online](https://quickbooks.intuit.com/)** | **~$180B Market Cap** ($16.3B Annual Revenue) | **$35/month** (Simple Start plan) | **30-Day Free Trial** (Full access, no credit card required) | Dominant SMB platform; offers invoicing, payroll, inventory, and extensive app integrations. |
 | **[FreeAgent](https://www.freeagent.com/)** | **~$35B Parent Market Cap** ($18.5B NatWest Revenue / ~$50M ARR) | **$20/month** ($10/mo for first 6 months) | **Free Forever** for NatWest/RBS/Mettle business bank account holders; otherwise **30-Day Free Trial** | UK & international bookkeeping for small businesses and contractors with automated tax filing. |
@@ -48,13 +57,13 @@ The table below lists leading commercial SaaS bookkeeping and accounting solutio
 
 ---
 
-## Open-Source Bookkeeping Projects
+## 🚀 Open-Source Bookkeeping Projects
 
 Open-source accounting applications provide self-hosting capabilities, complete data ownership, custom workflows, and transparent double-entry ledgers.
 
-The list below is sorted by **GitHub Star Count (Descending)**.
+The list below is sorted by **GitHub Star Count (Descending)** ⭐.
 
-| Project & Repository | GitHub Stars | Tech Stack / Format | Key Features & Target Audience |
+| 🛠️ Project & Repository | ⭐ GitHub Stars | 💻 Tech Stack / Format | 💡 Key Features & Target Audience |
 | :--- | :--- | :--- | :--- |
 | **[ERPNext](https://github.com/frappe/erpnext)** [![ERPNext Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social)](https://github.com/frappe/erpnext/stargazers) | ~31,800 stars | Python (Frappe), MariaDB, JS | Complete open-source ERP suite featuring robust general ledger accounting, accounts payable/receivable, asset management, budgeting, and global tax compliance. |
 | **[Actual Budget](https://github.com/actualbudget/actual)** [![Actual Stars](https://img.shields.io/github/stars/actualbudget/actual?style=social)](https://github.com/actualbudget/actual/stargazers) | ~29,200 stars | Node.js, TypeScript, SQLite | Super-fast, privacy-first, local-first personal finance and envelope budgeting software with end-to-end encryption. |
@@ -72,45 +81,70 @@ The list below is sorted by **GitHub Star Count (Descending)**.
 
 ---
 
-## Feature Comparison & Buyer's Guide
+## 🎯 Feature Comparison & Buyer's Guide
 
-- **Best for Small Business Standard Accounting:** **QuickBooks Online** or **Xero** (broad ecosystem, bank integrations, CPA familiarity).
-- **Best Free SaaS Option:** **Wave Accounting** (unlimited invoicing & basic accounting for $0/mo).
-- **Best Open-Source for Self-Hosting (Web):** **Akaunting** or **Bigcapital** (modern web UI, cloud accounting experience).
-- **Best Open-Source for Plain-Text / Developers:** **Beancount** or **hledger** (version-controlled data, command-line speed).
-- **Best Open-Source Enterprise ERP:** **ERPNext** (full ERP capabilities beyond standalone accounting).
-- **Best Offline-First Desktop App:** **Frappe Books** or **GnuCash** (local data storage, zero cloud lock-in).
+- 🏆 **Best for Small Business Standard Accounting:** **QuickBooks Online** or **Xero** (broad ecosystem, bank integrations, CPA familiarity).
+- 🆓 **Best Free SaaS Option:** **Wave Accounting** (unlimited invoicing & basic accounting for $0/mo).
+- 🌐 **Best Open-Source for Self-Hosting (Web):** **Akaunting** or **Bigcapital** (modern web UI, cloud accounting experience).
+- ⌨️ **Best Open-Source for Plain-Text / Developers:** **Beancount** or **hledger** (version-controlled data, command-line speed).
+- 🏢 **Best Open-Source Enterprise ERP:** **ERPNext** (full ERP capabilities beyond standalone accounting).
+- 💻 **Best Offline-First Desktop App:** **Frappe Books** or **GnuCash** (local data storage, zero cloud lock-in).
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## ❓ Frequently Asked Questions (FAQ)
 
-### What is the difference between single-entry and double-entry bookkeeping?
+### 📖 What is the difference between single-entry and double-entry bookkeeping?
 Single-entry bookkeeping records transactions once as income or expense (like a checkbook log). Double-entry bookkeeping records every transaction twice—as a debit in one account and a credit in another—ensuring balance between assets, liabilities, and equity (`Assets = Liabilities + Equity`).
 
-### Why choose open-source accounting software over SaaS?
+### 🔒 Why choose open-source accounting software over SaaS?
 Open-source accounting software provides total data sovereignty, eliminates monthly subscription fees, allows offline access or self-hosting on private servers, and permits custom software modifications. Commercial SaaS platforms, however, usually offer turn-key bank feed integrations, built-in tax compliance, and automated payroll.
 
-### How do plain-text accounting systems like Beancount and hledger work?
+### 📝 How do plain-text accounting systems like Beancount and hledger work?
 Plain-text accounting tools store financial transactions in human-readable plain text files (`.beancount` or `.journal`). Users manage ledgers using git version control, text editors, and CLI tools that calculate balance sheets, P&L reports, and cash flow statements dynamically.
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-1. Fork this repository.
-2. Edit `README.md` following the established table structure.
-3. Ensure open-source additions include valid GitHub star badges linking directly to `/stargazers`.
-4. Submit a Pull Request with factual descriptions.
-
----
-
-## Disclaimer
-
-- This is a community-curated collection and does not constitute financial, tax, or legal advice.
-- Verify accounting regulatory compliance (e.g., GAAP, IFRS, VAT/GST) for your specific jurisdiction before adopting any platform.
-- Self-hosted applications require adequate server security, backups, and encryption for sensitive financial records.
+1. 🍴 Fork this repository.
+2. 📝 Edit `README.md` following the established table structure.
+3. ⭐ Ensure open-source additions include valid GitHub star badges linking directly to `/stargazers`.
+4. 🚀 Submit a Pull Request with factual descriptions.
 
 ---
 
-**Maintained by the open-source bookkeeping community.**
+## 💖 Support & Sponsorship
+
+If you found this curated list helpful, please consider supporting the repository! Your support helps keep this guide up-to-date with top SaaS tools, open-source projects, and financial management resources.
+
+- ⭐️ **Star this repository** to show your appreciation and boost visibility.
+- 🍴 **Fork the repo** to contribute new accounting applications.
+- 📢 **Share with your network** on Twitter/X, LinkedIn, or developer forums.
+- ☕ **Sponsor / Buy me a coffee:** [Sponsor on GitHub](https://github.com/sponsors/ishandutta2007)
+
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Bookkeeping&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Bookkeeping&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- ℹ️ This is a community-curated collection and does not constitute financial, tax, or legal advice.
+- ⚖️ Verify accounting regulatory compliance (e.g., GAAP, IFRS, VAT/GST) for your specific jurisdiction before adopting any platform.
+- 🔐 Self-hosted applications require adequate server security, backups, and encryption for sensitive financial records.
+
+---
+
+<p align="center">
+  <b>Maintained with ❤️ by the open-source bookkeeping community.</b>
+</p>
