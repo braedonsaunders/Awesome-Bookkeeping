@@ -1,229 +1,116 @@
-# Awesome-Bookkeeping
+# Awesome Bookkeeping & Accounting Software
 
-## Top Bookkeeping Software Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
+> A curated list of top **SaaS accounting platforms** and **open-source bookkeeping software** for small business owners, freelancers, accountants, and software developers.
 
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Small Business Accounting, Invoicing & Financial Management*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Bookkeeping Software**. These tools manage double-entry accounting, invoicing, expense tracking, bank reconciliation, and financial reporting for freelancers, small businesses, and growing enterprises.
-
-
-
-**Examples** include QuickBooks Online, Xero, Zoho Books, FreshBooks, Wave Accounting, Sage Accounting, FreeAgent, Kashoo, Manager.io, and Patriot Accounting (the category leaders).
-
-
-
-**Open-source emphasis**: This section is expanded with active projects for self-hosting, custom accounting workflows, and transparent financial data management — ideal for freelancers, small businesses, and developers building vendor-independent bookkeeping solutions. The open-source ecosystem for double-entry accounting is notably mature, with production-grade platforms and robust alternatives to commercial SaaS offerings.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[QuickBooks Online](https://quickbooks.intuit.com/)**  
-
-  The dominant small-business accounting platform with invoicing, expense tracking, inventory, payroll add-ons, and extensive third-party integrations. Plans range from Simple Start to Advanced, with the Plus plan now $140/month and Advanced $340/month following August 2026 price increases .
-
-
-
-- **[Xero](https://www.xero.com/)**  
-
-  Cloud accounting platform known for clean bank reconciliation, unlimited users on all plans, and strong accountant collaboration. US pricing starts at $25/month for Early (then $25) up to $90/month for Established .
-
-
-
-- **[Zoho Books](https://www.zoho.com/books/)**  
-
-  Affordable accounting software within the Zoho ecosystem, offering a free plan for businesses under $50k annual revenue, with paid plans starting at $15/month for Standard .
-
-
-
-- **[FreshBooks](https://www.freshbooks.com/)**  
-
-  Accounting software designed for freelancers and service-based businesses, with invoicing, expense tracking, and project profitability. Plans start at $19/month Lite, $33/month Plus, and $60/month Premium .
-
-
-
-- **[Wave Accounting](https://www.waveapps.com/)**  
-
-  Free accounting software for small businesses and freelancers with invoicing, expense tracking, and basic reports. The free Starter plan covers unlimited invoices; Pro plan ($16/month) adds bank feeds and receipt scanning .
-
-
-
-- **[Sage Accounting](https://www.sage.com/)**  
-
-  Cloud accounting platform for small businesses with invoicing, cash flow forecasting, and accountant collaboration. Starting at $20/month .
-
-
-
-- **[FreeAgent](https://www.freeagent.com/)**  
-
-  Accounting software particularly popular in the UK, with invoicing, expense tracking, and tax filing. Standard plan priced at $27/month or $270/year .
-
-
-
-- **[Kashoo](https://kashoo.com/)**  
-
-  Simple cloud accounting software for freelancers and small businesses, starting at $27/month .
-
-
-
-- **[Manager.io](https://www.manager.io/)**  
-
-  Free accounting software with desktop, cloud, and server versions. The Desktop edition is completely free forever with no restrictions .
-
-
-
-- **[Patriot Accounting](https://www.patriotsoftware.com/)**  
-
-  Affordable accounting software for small businesses, starting at $20/month .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[GnuCash](https://github.com/Gnucash/gnucash)**  
-
-  A mature, well-established double-entry accounting program for personal and small-business financial management with 20+ years of development history. Tracks assets, liabilities, income, and expenses using professional bookkeeping principles, with multi-currency support, Python scripting for automation, and investment portfolio tracking. Persists data in SQL databases or XML files .
-
-
-
-- **[Frappe Books](https://github.com/frappe/books)**  
-
-  An offline-first double-entry accounting application built on the Frappe framework. Designed for recording business transactions, managing general ledger, tracking accounts payable/receivable, and generating balance sheets and P&L statements. Features a built-in retail point of sale system and desktop application that syncs when connectivity is restored. Actively maintained with modern TypeScript stack .
-
-
-
-- **[Bigcapital](https://github.com/bigcapitalhq/bigcapital)**  
-
-  Cloud accounting management system designed to track assets, liabilities, and equity through a digital ledger. Supports multi-tenant organizational framework with multi-branch tracking and regional currency settings. Features integrated bank feed management with secure token exchanges and webhook processing for automated transaction synchronization and rule-based categorization. Multi-currency ledger handles base currency conversions .
-
-
-
-- **[Crater](https://github.com/crater-invoice-inc/crater)**  
-
-  Open-source invoicing and expense tracking software for individuals and small businesses. Self-hosted billing platform with payment gateway integration (Stripe, PayPal), professional invoice generation, estimates, and expense tracking. Multi-tenant support allows managing multiple business entities in a single instance. Focuses primarily on invoicing and billing rather than full double-entry accounting .
-
-
-
-- **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)**  
-
-  Professional billing and invoicing platform with 7,000+ stars. Multi-currency support, time tracking, and regional tax handling with automated exchange rate updates. Cross-platform mobile and desktop applications. Available as both cloud-based SaaS and self-hosted suite. Focuses on invoicing and client management rather than full general ledger accounting .
-
-
-
-- **[Akaunting](https://github.com/akaunting/akaunting)**  
-
-  Free and open-source online accounting software designed for small businesses and freelancers. User-friendly interface with invoicing, expense tracking, bank reconciliation, and multi-currency support. Self-hosted or cloud option with paid cloud plans starting at $12/month. Offers a free core with optional paid modules .
-
-
-
-- **[LedgerSMB](https://github.com/ledgersmb/LedgerSMB)**  
-
-  Double-entry accounting and ERP system designed for small to medium businesses, with a focus on strong accounting controls and audit trails. Features general ledger, accounts payable/receivable, invoicing, quotations, inventory, and financial reporting. Self-hosted with PostgreSQL backend .
-
-
-
-- **[ERPNext Accounting](https://github.com/frappe/erpnext)**  
-
-  Full-featured open-source ERP with comprehensive accounting module. Double-entry bookkeeping, invoicing, payments, asset management, budgeting, and tax compliance across 100+ countries. Part of the broader ERPNext ecosystem, best for businesses wanting a unified ERP rather than standalone accounting.
-
-
-
-- **[hledger](https://github.com/simonmichael/hledger)**  
-
-  Cross-platform, text-based, double-entry accounting tool with a powerful command-line interface and plain-text file format. Ideal for developers and users comfortable with terminal workflows and version-controllable data.
-
-
-
-- **[Beancount](https://github.com/beancount/beancount)**  
-
-  Double-entry bookkeeping in plain text, using a simple, human-readable syntax. Popular for personal finance and small-business accounting in developer and FOSS communities. Features a powerful query language and web-based Fava UI for visualization.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **lucafy** — Web-based simple double-entry bookkeeping application, lightweight for small-scale use .
-
-- **TataruBook** — Double-entry bookkeeping and investment performance analysis tool based on SQL tables and views .
-
-- **Brandons-Books** — Open-source online bookkeeping program .
-
-- **bookkeeper (lazarusvc)** — Self-hosted ERP/accounting software based on ASP.NET MVC5 .
-
-- **Spacecore** — Bookkeeping suite targeted at hackerspaces, associations, and small business use .
-
-
-
-**Frameworks for building custom bookkeeping solutions**: For a mature, desktop-based double-entry system with extensive features, **GnuCash** remains the gold standard for open-source personal and small-business accounting . For modern web-based self-hosting, **Bigcapital** or **Akaunting** offer cloud-style experiences with invoicing, bank reconciliation, and multi-currency support . For a lightweight, offline-first desktop app, **Frappe Books** provides a clean double-entry foundation with POS integration . For developer-friendly plain-text accounting, **hledger** and **Beancount** offer command-line power with version-controllable data. For businesses wanting a unified ERP with accounting, **ERPNext** provides the most comprehensive integration.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Bookkeeping tools must comply with local accounting regulations, tax laws (VAT, GST, sales tax), and financial reporting standards.
-
-- Self-hosted open-source solutions require proper infrastructure, security hardening, data backups, and ongoing maintenance. Financial data requires encryption at rest and in transit.
-
-- Open-source accounting tools generally lack the payroll processing, automated bank feeds, and CPA collaboration features found in commercial SaaS platforms. Evaluate these gaps carefully before relying on them for regulatory compliance.
-
-
+*Focused on double-entry accounting, self-hosted general ledgers, invoicing, bank reconciliation, and financial management.*
 
 ---
 
+## Table of Contents
 
+- [Market Size & Industry Landscape](#market-size--industry-landscape)
+- [SaaS & Cloud Accounting Platforms](#saas--cloud-accounting-platforms)
+- [Open-Source Bookkeeping Projects](#open-source-bookkeeping-projects)
+- [Feature Comparison & Buyer's Guide](#feature-comparison--buyers-guide)
+- [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
 
-**Made for freelancers, small business owners, accountants, and developers.**  
+---
 
-Let's make bookkeeping more open, transparent, and accessible.
+## Market Size & Industry Landscape
+
+**Estimated Market Size:** The global accounting and bookkeeping software market is estimated at **$15.5 Billion to $20.0 Billion** in 2026, with projections exceeding $30 Billion by 2030 at a compound annual growth rate (CAGR) of ~8.8%. 
+
+**Market Dynamics:** The sector is **moderately fragmented**. While dominant leaders like Intuit (QuickBooks) and Xero command significant market share in North America, Europe, and ANZ, diverse regional tax regulations (e.g., VAT, GST, MTD) and varied business requirements allow dozens of specialized SaaS platforms and self-hosted open-source tools to thrive alongside market leaders.
+
+---
+
+## SaaS & Cloud Accounting Platforms
+
+The table below lists leading commercial SaaS bookkeeping and accounting solutions, sorted by **Company Valuation / Scale (Descending)**.
+
+| SaaS Platform | Company Valuation / Revenue Scale | Starting Price | Free Tier / Trial Limit | Key Focus & Target Audience |
+| :--- | :--- | :--- | :--- | :--- |
+| **[QuickBooks Online](https://quickbooks.intuit.com/)** | **~$180B Market Cap** ($16.3B Annual Revenue) | **$35/month** (Simple Start plan) | **30-Day Free Trial** (Full access, no credit card required) | Dominant SMB platform; offers invoicing, payroll, inventory, and extensive app integrations. |
+| **[FreeAgent](https://www.freeagent.com/)** | **~$35B Parent Market Cap** ($18.5B NatWest Revenue / ~$50M ARR) | **$20/month** ($10/mo for first 6 months) | **Free Forever** for NatWest/RBS/Mettle business bank account holders; otherwise **30-Day Free Trial** | UK & international bookkeeping for small businesses and contractors with automated tax filing. |
+| **[Sage Accounting](https://www.sage.com/)** | **~$13.5B Market Cap** ($2.7B Annual Revenue) | **$10/month** (Sage Accounting Start) | **30-Day Free Trial** (Full features access for 30 days) | Established cloud platform for small businesses with cash flow forecasting and CPA collaboration. |
+| **[Xero](https://www.xero.com/)** | **~$13.0B Market Cap** ($1.1B USD / $1.7B AUD ARR) | **$15/month** (Early plan) | **30-Day Free Trial** (Limited to 20 invoices/quotes and 5 bills during trial) | Cloud accounting known for clean bank reconciliation, unlimited users, and strong accountant network. |
+| **[Zoho Books](https://www.zoho.com/books/)** | **~$10.0B Valuation** ($1.4B Revenue, Private) | **$15/month** (Standard plan) | **Free Forever Plan** for businesses with revenue <$50k/yr (1 user + 1 accountant, up to 1,000 invoices/yr) | Cost-effective bookkeeping tightly integrated into the broader Zoho CRM and business suite. |
+| **[Wave Accounting](https://www.waveapps.com/)** | **~$8.0B Parent Market Cap** ($3.6B H&R Block Revenue) | **$0/month** (Starter plan); **$16/month** (Pro plan) | **Free Forever Plan** (Unlimited invoices, estimates, expense tracking, and accounting for 1 user) | Popular free billing and accounting platform designed for freelancers and micro-businesses. |
+| **[FreshBooks](https://www.freshbooks.com/)** | **~$1.0B Valuation** ($100M+ ARR, Unicorn) | **$19/month** (Lite plan, up to 5 billable clients) | **30-Day Free Trial** (Full access for up to 5 clients/invoices, no credit card required) | Service-based business & freelancer software with time tracking, client portals, and project profitability. |
+| **[Patriot Accounting](https://www.patriotsoftware.com/)** | **~$30M ARR** (Private, Estimated) | **$20/month** (Basic Accounting plan) | **30-Day Free Trial** (Unlimited invoices, estimates, and customer transactions) | Simple, budget-friendly accounting software designed specifically for US small businesses. |
+| **[Manager.io](https://www.manager.io/)** | **~$15M Valuation** (Private, Estimated) | **$0/month** (Desktop Edition); **$49/month** (Cloud Edition) | **Free Forever Desktop Edition** (1 local user, full accounting feature set without time limits) | Single-user offline desktop software or multi-user self-hosted/cloud accounting suite. |
+| **[Kashoo](https://kashoo.com/)** | **~$5M ARR** (Private, Estimated) | **$18/month** (Billed annually at $216/yr) or $30/mo | **14-Day Free Trial** (Full access to automated machine-learning income & expense matching) | Simple automated accounting app focused on quick income/expense classification for freelancers. |
+
+---
+
+## Open-Source Bookkeeping Projects
+
+Open-source accounting applications provide self-hosting capabilities, complete data ownership, custom workflows, and transparent double-entry ledgers.
+
+The list below is sorted by **GitHub Star Count (Descending)**.
+
+| Project & Repository | GitHub Stars | Tech Stack / Format | Key Features & Target Audience |
+| :--- | :--- | :--- | :--- |
+| **[ERPNext](https://github.com/frappe/erpnext)** [![ERPNext Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social)](https://github.com/frappe/erpnext/stargazers) | ~31,800 stars | Python (Frappe), MariaDB, JS | Complete open-source ERP suite featuring robust general ledger accounting, accounts payable/receivable, asset management, budgeting, and global tax compliance. |
+| **[Actual Budget](https://github.com/actualbudget/actual)** [![Actual Stars](https://img.shields.io/github/stars/actualbudget/actual?style=social)](https://github.com/actualbudget/actual/stargazers) | ~29,200 stars | Node.js, TypeScript, SQLite | Super-fast, privacy-first, local-first personal finance and envelope budgeting software with end-to-end encryption. |
+| **[Firefly III](https://github.com/firefly-iii/firefly-iii)** [![Firefly III Stars](https://img.shields.io/github/stars/firefly-iii/firefly-iii?style=social)](https://github.com/firefly-iii/firefly-iii/stargazers) | ~24,700 stars | PHP (Laravel), MySQL/PostgreSQL | Self-hosted double-entry financial manager supporting recurring transactions, budget rules, piggy banks, and multi-currency tracking. |
+| **[Akaunting](https://github.com/akaunting/akaunting)** [![Akaunting Stars](https://img.shields.io/github/stars/akaunting/akaunting?style=social)](https://github.com/akaunting/akaunting/stargazers) | ~10,100 stars | PHP (Laravel), Vue.js, MySQL | Full-featured modular online accounting software for small businesses with invoicing, expense management, bank accounts, and client portals. |
+| **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)** [![Invoice Ninja Stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social)](https://github.com/invoiceninja/invoiceninja/stargazers) | ~10,100 stars | PHP (Laravel), Flutter, MySQL | Enterprise-grade open-source invoicing, expense tracking, proposal generation, and time tracking app with mobile and desktop clients. |
+| **[Ghostfolio](https://github.com/ghostfolio/ghostfolio)** [![Ghostfolio Stars](https://img.shields.io/github/stars/ghostfolio/ghostfolio?style=social)](https://github.com/ghostfolio/ghostfolio/stargazers) | ~9,300 stars | Node.js, NestJS, PostgreSQL | Wealth management dashboard to track net worth, investments, cash accounts, and multi-currency transactions. |
+| **[Crater](https://github.com/crater-invoice-inc/crater)** [![Crater Stars](https://img.shields.io/github/stars/crater-invoice-inc/crater?style=social)](https://github.com/crater-invoice-inc/crater/stargazers) | ~8,300 stars | PHP (Laravel), Vue.js, MySQL | Self-hosted mobile & web invoicing platform crafted for freelancers and small businesses to handle estimates, invoices, and payment processing. |
+| **[Beancount](https://github.com/beancount/beancount)** [![Beancount Stars](https://img.shields.io/github/stars/beancount/beancount?style=social)](https://github.com/beancount/beancount/stargazers) | ~6,000 stars | Python, Plain Text Files | Command-line double-entry bookkeeping language using human-readable text files, SQL-like query interface, and integration with the web-based Fava UI. |
+| **[Frappe Books](https://github.com/frappe/books)** [![Frappe Books Stars](https://img.shields.io/github/stars/frappe/books?style=social)](https://github.com/frappe/books/stargazers) | ~5,000 stars | Electron, Vue.js, SQLite | Modern, offline-first desktop double-entry accounting software for small businesses with built-in invoicing, general ledger, and POS sync. |
+| **[GnuCash](https://github.com/Gnucash/gnucash)** [![GnuCash Stars](https://img.shields.io/github/stars/Gnucash/gnucash?style=social)](https://github.com/Gnucash/gnucash/stargazers) | ~4,400 stars | C, C++, Scheme, GTK | Battle-tested desktop accounting application with 25+ years of active development; tracks accounts, investments, quotes, and multi-currency transactions. |
+| **[Bigcapital](https://github.com/bigcapitalhq/bigcapital)** [![Bigcapital Stars](https://img.shields.io/github/stars/bigcapitalhq/bigcapital?style=social)](https://github.com/bigcapitalhq/bigcapital/stargazers) | ~3,900 stars | Node.js, React, PostgreSQL | Open-source cloud accounting system with multi-tenant financial ledgers, bank feeds token integration, and rule-based transaction auto-categorization. |
+| **[hledger](https://github.com/simonmichael/hledger)** [![hledger Stars](https://img.shields.io/github/stars/simonmichael/hledger?style=social)](https://github.com/simonmichael/hledger/stargazers) | ~2,600 stars | Haskell, Plain Text Files | Fast, reliable plain-text accounting software with terminal UI (TUI), command-line tools, and web interface for developer-friendly ledger management. |
+| **[LedgerSMB](https://github.com/ledgersmb/LedgerSMB)** [![LedgerSMB Stars](https://img.shields.io/github/stars/ledgersmb/LedgerSMB?style=social)](https://github.com/ledgersmb/LedgerSMB/stargazers) | ~570 stars | Perl, JavaScript, PostgreSQL | ERP and double-entry accounting application designed for small to medium enterprises with strict audit controls and financial reporting. |
+
+---
+
+## Feature Comparison & Buyer's Guide
+
+- **Best for Small Business Standard Accounting:** **QuickBooks Online** or **Xero** (broad ecosystem, bank integrations, CPA familiarity).
+- **Best Free SaaS Option:** **Wave Accounting** (unlimited invoicing & basic accounting for $0/mo).
+- **Best Open-Source for Self-Hosting (Web):** **Akaunting** or **Bigcapital** (modern web UI, cloud accounting experience).
+- **Best Open-Source for Plain-Text / Developers:** **Beancount** or **hledger** (version-controlled data, command-line speed).
+- **Best Open-Source Enterprise ERP:** **ERPNext** (full ERP capabilities beyond standalone accounting).
+- **Best Offline-First Desktop App:** **Frappe Books** or **GnuCash** (local data storage, zero cloud lock-in).
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+### What is the difference between single-entry and double-entry bookkeeping?
+Single-entry bookkeeping records transactions once as income or expense (like a checkbook log). Double-entry bookkeeping records every transaction twice—as a debit in one account and a credit in another—ensuring balance between assets, liabilities, and equity (`Assets = Liabilities + Equity`).
+
+### Why choose open-source accounting software over SaaS?
+Open-source accounting software provides total data sovereignty, eliminates monthly subscription fees, allows offline access or self-hosting on private servers, and permits custom software modifications. Commercial SaaS platforms, however, usually offer turn-key bank feed integrations, built-in tax compliance, and automated payroll.
+
+### How do plain-text accounting systems like Beancount and hledger work?
+Plain-text accounting tools store financial transactions in human-readable plain text files (`.beancount` or `.journal`). Users manage ledgers using git version control, text editors, and CLI tools that calculate balance sheets, P&L reports, and cash flow statements dynamically.
+
+---
+
+## How to Contribute
+
+1. Fork this repository.
+2. Edit `README.md` following the established table structure.
+3. Ensure open-source additions include valid GitHub star badges linking directly to `/stargazers`.
+4. Submit a Pull Request with factual descriptions.
+
+---
+
+## Disclaimer
+
+- This is a community-curated collection and does not constitute financial, tax, or legal advice.
+- Verify accounting regulatory compliance (e.g., GAAP, IFRS, VAT/GST) for your specific jurisdiction before adopting any platform.
+- Self-hosted applications require adequate server security, backups, and encryption for sensitive financial records.
+
+---
+
+**Maintained by the open-source bookkeeping community.**
