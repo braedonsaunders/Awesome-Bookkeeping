@@ -61,9 +61,9 @@ The table below lists leading commercial SaaS bookkeeping and accounting solutio
 
 Open-source accounting applications provide self-hosting capabilities, complete data ownership, custom workflows, and transparent double-entry ledgers.
 
-The list below is sorted by **GitHub Star Count (Descending)** ⭐.
+The list below is sorted by **GitHub Stars_Count (Descending)** ⭐.
 
-| 🛠️ Project & Repository | ⭐ GitHub Stars | 💻 Tech Stack / Format | 💡 Key Features & Target Audience |
+| 🛠️ Project & Repository | ⭐ GitHub_Stars | 💻 Tech Stack / Format | 💡 Key Features & Target Audience |
 | :--- | :--- | :--- | :--- |
 | **[ERPNext](https://github.com/frappe/erpnext)** [![ERPNext Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social)](https://github.com/frappe/erpnext/stargazers) | ~31,800 stars | Python (Frappe), MariaDB, JS | Complete open-source ERP suite featuring robust general ledger accounting, accounts payable/receivable, asset management, budgeting, and global tax compliance. |
 | **[Actual Budget](https://github.com/actualbudget/actual)** [![Actual Stars](https://img.shields.io/github/stars/actualbudget/actual?style=social)](https://github.com/actualbudget/actual/stargazers) | ~29,200 stars | Node.js, TypeScript, SQLite | Super-fast, privacy-first, local-first personal finance and envelope budgeting software with end-to-end encryption. |
@@ -109,7 +109,7 @@ Plain-text accounting tools store financial transactions in human-readable plain
 
 1. 🍴 Fork this repository.
 2. 📝 Edit `README.md` following the established table structure.
-3. ⭐ Ensure open-source additions include valid GitHub star badges linking directly to `/stargazers`.
+3. ⭐ Ensure open-source additions include valid GitHub Stars_Badges linking directly to `/stargazers`.
 4. 🚀 Submit a Pull Request with factual descriptions.
 
 ---
